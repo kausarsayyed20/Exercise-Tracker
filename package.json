@@ -4,6 +4,7 @@
 	"description": "A REST API project, part of Free Code Camp's curriculum",
 	"main": "server.js",
 	"scripts": {
+		"heruko-postbuild": "npm install",
 		"start": "node server.js"
 	},
 	"dependencies": {
